@@ -57,7 +57,6 @@ fun burbuja (arrayVector: Array<Int>){
                 arrayVector[j + i] = contador
 
                 print("$contador | ")
-                print("holamundo")
             }
         }
     }
