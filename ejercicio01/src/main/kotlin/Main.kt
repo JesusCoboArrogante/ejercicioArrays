@@ -3,7 +3,6 @@ fun main(args: Array<String>) {
     println("introduce un numero")
     numVector = readln().toIntOrNull()?:0
     val arrayVector = arrayOf(11,12,13,14,15,16,17,18,19,)
-    //imprimirVector(arrayVector, numVector)
     imprimirVector(arrayVector,numVector)
 
     maxVector(arrayVector)
@@ -48,17 +47,15 @@ fun maxVector (arrayVector: Array<Int>){
 fun burbuja (arrayVector: Array<Int>){
     var contador = 0
     arrayVector.shuffle()
-    for (i in 0 until  arrayVector.size){
 
+    for (i in 0 until arrayVector.size){
         for (j in 0 until arrayVector.size -1){
             if (arrayVector[j] > arrayVector[j +1 ]){
                 contador = arrayVector[j]
                 arrayVector[j] = arrayVector[j + 1]
-                arrayVector[j + i] = contador
-
+                arrayVector[j + 1] = contador
                 print("$contador | ")
             }
         }
     }
-
 }
