@@ -13,27 +13,43 @@ fun main(args: Array<String>) {
 
 
 
+
+
+
 }
 
 fun arrais(array: CharArray) {
-var segundo = CharArray (array.size)
+var segundo = CharArray(array.size)
+var tercero = CharArray (array.size)
 
-    for (i in array.indices.reversed()){
-        print(array[i])
-        segundo [i] = array[i]
+    for ( i in array.indices.reversed()){
 
+        segundo [i]  = array[i]
+        println("Indice: $i, valor: ${array[i]}")
 
-
-    }
-    for (j in array.indices){
 
     }
-    println()
-    println(array)
+    for (i in array.indices){
+        tercero [i] = array[i]
+
+    }
     println(segundo)
-    if (segundo.contentEquals(array)){
+
+
+    if (tercero == segundo){
         println("es capicua")
     }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
