@@ -4,18 +4,18 @@ fun main(args: Array<String>) {
     println("introduce un numero")
     num = readln()
     var array = num.toCharArray()
-    arrais(array)
+    arrais(array, num)
 
 }
 
-fun arrais(array: CharArray) {
+fun arrais(array: CharArray, num: String) {
     var segundo = CharArray(array.size)
     var tercero = CharArray(array.size)
     var j = 0
     for (i in array.indices.reversed()) {
-        segundo[j]= array[i]
-        j+=1
-        println(array[i])
+        segundo[j] = array[i]
+        j ++
+
 
 
     }
@@ -23,13 +23,13 @@ fun arrais(array: CharArray) {
         tercero[i] = array[i]
 
     }
-    println(segundo)
+
 
 
     if (tercero.contentEquals(segundo)) {
-        println("es capicua")
+        println("$num es capicua")
     }else {
-        println("no es capicua")
+        println("$num no es capicua")
     }
 
 }
