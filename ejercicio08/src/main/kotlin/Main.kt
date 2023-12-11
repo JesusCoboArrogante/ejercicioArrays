@@ -4,8 +4,10 @@ fun main(args: Array<String>) {
     "//[a-zA-Z]".toRegex()
     println ("introduce una palabra")
     texto = readln()
-    var array = CharArray(texto)
-    palidromo(array)
+    var ascci = texto.toIn
+
+
+   palidromo(ascci)
 
 
 
@@ -14,21 +16,21 @@ fun main(args: Array<String>) {
 
 
 
-fun palidromo (array: CharArray){
-    var medida = array.size
-    val media = null
-    val segundo = arrayOf(media)
+fun palidromo (ascci: ByteArray){
 
+    val segundo = intArrayOf(ascci.size)
     var j = 0
-    for (i in array.indices.reversed()){
-        segundo [i] = array[i]
+    for (i in ascci.indices.reversed()){
+        segundo [i] = ascci[i].toInt()
         j++
 
        println(segundo[i])
 
     }
-    println(array)
+
 }
+
+
 
 
 
