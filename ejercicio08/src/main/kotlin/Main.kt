@@ -1,34 +1,53 @@
-fun main(args: Array<String>) {
-    var texto = ""
-    Regex(texto)
-    "//[a-zA-Z]".toRegex()
+fun main() {
+    val texto: String
+
     println ("introduce una palabra")
     texto = readln()
-    var ascci = texto.toIn
+    val cambio = texto.toCharArray()
 
-
-   palidromo(ascci)
-
-
-
+    val dere = derecho(texto.toCharArray())
+    val rev = reverso(texto.toCharArray())
+   polimorfismo(rev, dere )
 
 }
 
 
 
-fun palidromo (ascci: ByteArray){
+fun derecho(cambio: CharArray): CharArray {
+   val dere = CharArray(cambio.size)
 
-    val segundo = intArrayOf(ascci.size)
-    var j = 0
-    for (i in ascci.indices.reversed()){
-        segundo [i] = ascci[i].toInt()
-        j++
+    for (i in cambio.indices){
+       dere [i] = cambio[i]
 
-       println(segundo[i])
+        //println(dere)
 
     }
+    return dere
 
 }
+
+fun reverso(cambio: CharArray): CharArray{
+    val rev = CharArray(cambio.size)
+
+    var j = 0
+    for (i in cambio.indices.reversed()){
+        rev[j] = cambio[i]
+        j++
+
+
+
+    }
+    return rev
+}
+
+fun polimorfismo(rev: CharArray, dere: CharArray){
+    if (dere.contentEquals(rev)){
+        println("es capicua")
+    }else{
+        println("no lo es")
+    }
+}
+
 
 
 
