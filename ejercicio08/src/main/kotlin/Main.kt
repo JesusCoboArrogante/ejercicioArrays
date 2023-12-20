@@ -5,26 +5,14 @@ fun main() {
     texto = readln()
     val cambio = texto.toCharArray()
 
-    val dere = derecho(texto.toCharArray())
     val rev = reverso(texto.toCharArray())
-   polimorfismo(rev, dere )
+   polimorfismo(rev, cambio )
 
 }
 
 
 
-fun derecho(cambio: CharArray): CharArray {
-   val dere = CharArray(cambio.size)
 
-    for (i in cambio.indices){
-       dere [i] = cambio[i]
-
-        //println(dere)
-
-    }
-    return dere
-
-}
 
 fun reverso(cambio: CharArray): CharArray{
     val rev = CharArray(cambio.size)
@@ -40,8 +28,8 @@ fun reverso(cambio: CharArray): CharArray{
     return rev
 }
 
-fun polimorfismo(rev: CharArray, dere: CharArray){
-    if (dere.contentEquals(rev)){
+fun polimorfismo(rev: CharArray, cambio: CharArray){
+    if (cambio.contentEquals(rev)){
         println("es capicua")
     }else{
         println("no lo es")
