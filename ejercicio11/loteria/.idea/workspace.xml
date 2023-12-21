@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f236c01d-e5cc-4ec8-ab44-c9996bb63b3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/sonarlint/issuestore/d/8/d83ae3847b7d408136086cc5e9e95f5f7c126ed5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/sonarlint/securityhotspotstore/d/8/d83ae3847b7d408136086cc5e9e95f5f7c126ed5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/src/main/kotlin/Main.kt" beforeDir="false" />
-    </list>
+    <list default="true" id="f236c01d-e5cc-4ec8-ab44-c9996bb63b3b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +52,7 @@
       <workItem from="1703155328724" duration="269000" />
       <workItem from="1703173305730" duration="4538000" />
       <workItem from="1703178160092" duration="383000" />
+      <workItem from="1703180164534" duration="62000" />
     </task>
     <servers />
   </component>
