@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f236c01d-e5cc-4ec8-ab44-c9996bb63b3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/sonarlint/issuestore/d/8/d83ae3847b7d408136086cc5e9e95f5f7c126ed5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/sonarlint/securityhotspotstore/d/8/d83ae3847b7d408136086cc5e9e95f5f7c126ed5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio10/loteria/src/main/kotlin/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,25 +71,12 @@
       <updated>1703147742038</updated>
       <workItem from="1703147743092" duration="6056000" />
       <workItem from="1703155328724" duration="269000" />
+      <workItem from="1703173305730" duration="4538000" />
+      <workItem from="1703178160092" duration="383000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>21</line>
-          <properties method="comparacion">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
