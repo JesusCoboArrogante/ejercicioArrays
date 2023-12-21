@@ -30,9 +30,9 @@
 
 ~~11. Realiza un programa que nos sirva para generar la combinación de la primitiva, sin repetir un número.~~
 
-12. Realiza un programa que pida un valor entero, lo coloque en la primera posición de unvector e inicie el resto de elementos sumando uno al anterior. Ejemplo, si introducimos un 9 en la primera posición el resto de componentes quedaría: 10, 11, 12, 13...
+~~12. Realiza un programa que pida un valor entero, lo coloque en la primera posición de unvector e inicie el resto de elementos sumando uno al anterior. Ejemplo, si introducimos un 9 en la primera posición el resto de componentes quedaría: 10, 11, 12, 13...~~
 
-13. Repite el ejercicio en otro módulo de forma que se inicie el primer elemento y el resto de componentes del vector sean el anterior más el índice actual. Ejemplo, si introducimos un 2 el primero el resto quedaría: 2, 3, 5, 8, 12, 17, 23...
+~~13. Repite el ejercicio en otro módulo de forma que se inicie el primer elemento y el resto de componentes del vector sean el anterior más el índice actual. Ejemplo, si introducimos un 2 el primero el resto quedaría: 2, 3, 5, 8, 12, 17, 23...~~
 
 14. ¿Dónde está la mosca? Vamos a intentar cazar una mosca. La mosca será un valor que se introduce en una posición de un vector; el jugador no ve el panel pero si ve las casillas a las que puede golpear. Si la mosca está en esa posición se acaba el juego, mosca cazada. Si la mosca no está en esa posición pueden ocurrir dos cosas: que la mosca esté en casillas
 adyacentes en cuyo caso la mosca revolotea y se sitúa en otra casilla o que la mosca no esté en casillas adyacentes, en este caso la mosca permanece donde está.
