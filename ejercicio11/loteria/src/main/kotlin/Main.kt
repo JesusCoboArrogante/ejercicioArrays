@@ -16,10 +16,6 @@ fun main(args: Array<String>) {
 
 }
 
-
-
-
-
 fun aleatorio(loteria: IntArray) {
     for (i in loteria.indices) {
         val ran = (1..49).random()
