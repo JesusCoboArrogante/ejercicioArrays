@@ -38,7 +38,11 @@ fun nose (parejas: Array<String>, numeroUno: Int, numeroDos: Int, ver: Array<Str
         ver[numeroUno] = parejas[numeroUno]
         ver[numeroDos] = parejas[numeroDos]
         arrayPareja(ver)
-        //poner el tiempo un segundo
+
+        Thread.sleep(1000.toLong())
+        for (i in 1..9){
+            println()
+        }
         ver[numeroUno] = "X"
         ver[numeroDos] = "X"
         println()
