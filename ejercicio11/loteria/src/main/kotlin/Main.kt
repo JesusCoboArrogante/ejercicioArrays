@@ -2,8 +2,6 @@
 fun main(args: Array<String>) {
     val loteria = IntArray(6)
 
-
-
     do {
        aleatorio(loteria)
        val copia = loteria.copyOf()
@@ -12,8 +10,6 @@ fun main(args: Array<String>) {
     println("este es su numero")
 
     copiar(loteria)
-
-
 }
 
 fun aleatorio(loteria: IntArray) {
@@ -26,18 +22,14 @@ fun aleatorio(loteria: IntArray) {
     }
 
 }
-
 fun comparacion (loteria: IntArray): Int{
 
     var contador = 0
     for (i in loteria.indices){
         for (j in loteria.indices){
-
             if (loteria[i] == loteria[j]){
                 contador++
-
             }
-
         }
     }
     return contador

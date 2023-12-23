@@ -1,50 +1,70 @@
 import kotlin.coroutines.Continuation
 
 fun main(args: Array<String>) {
-    val casillas = arrayOf("[ ]","[ ]","[ ]","[ ]","[ ]")
-    val mosca = arrayOf("A","B","C","D","[M]",)
-    usuario(casillas)
+
+    val mosca = arrayOf("[ ]","[ ]","[ ]","[ ]","[M]",)
+    mosca.shuffle()
+
         do {
+
             val posicion: Int
+            println("[ ][ ][ ][ ][ ]")
+            println("------------")
             println("donde esta la mosca")
             posicion = readln().toIntOrNull()?:0
-            juego(mosca,posicion)
-        }while (false)
 
-
-
+        }while (juego(mosca, posicion))
 
 }
 
-fun usuario(casillas: Array<String>) {
-    for (i in casillas.indices) {
-        print(casillas[i])
+
+fun arrai (mosca: Array<String>, mostar: Boolean): Int {
+    var indice = 0
+
+    for (i in mosca.indices){
+
+        if (mostar){
+            print(mosca[i])
+        }
+
+        if (mosca[i] == "[M]"){
+            indice = i
+        }
     }
     println()
+    return indice
 }
 
 
-fun juego (mosca: Array<String>, posicion: Int){
+fun juego (mosca: Array<String>, posicion: Int): Boolean{
 
-        for (i in mosca.indices){
-            if ("[M]" == mosca[posicion]){
-                print("mosca muerta" )
-
+    var retorno = true
+    var indiceMosca = arrai(mosca, false)
 
 
-            }else if (mosca[posicion +1] == "[M]" ||  mosca[posicion -1] == "[M]"){
+            if (indiceMosca == posicion){
+                arrai(mosca, true)
+                print("mosca muerta")
+
+                retorno = false
+
+            }else if (posicion +1 == indiceMosca || posicion - 1 == indiceMosca){
+                arrai(mosca, true)
                 mosca.shuffle()
-                print(mosca[i])
-                println()
+
                 println("casi pero no")
 
 
-            } else{
-                println("sigue jugando")
+            } else {
+                println("no has acertado")
+
+
 
             }
 
-        }
+    return retorno
+
+
 
 
 
