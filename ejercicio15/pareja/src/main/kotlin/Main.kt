@@ -1,19 +1,25 @@
 fun main(args: Array<String>) {
     val parejas = arrayOf("1","1","2","2","3","3","4","4","5","5",)
     val ver = arrayOf("X","X","X","X","X","X","X","X","X","X")
+    parejas.shuffle()
     var numeroUno = 0
     var numeroDos = 0
-    arrayPareja(ver)
-    do {
 
+    do {
         println()
+        println("0 1 2 3 4 5 6 7 8 9")
+
         println("introduce un numero")
         numeroUno = readln().toIntOrNull()?:0
 
         println("introduce otro numero")
         numeroDos= readln().toIntOrNull()?:0
 
-        nose(parejas, numeroUno, numeroDos,ver)
+        if (numeroUno < 10 && numeroDos < 10  ){
+            nose(parejas, numeroUno, numeroDos,ver)
+        }
+
+
 
     }while (fin(parejas, ver))
 
@@ -22,7 +28,7 @@ fun main(args: Array<String>) {
 }
 fun arrayPareja(ver: Array<String>){
     for (i in ver.indices){
-        print(ver[i])
+        print("${ver[i]} ")
     }
 }
 
@@ -40,6 +46,7 @@ fun nose (parejas: Array<String>, numeroUno: Int, numeroDos: Int, ver: Array<Str
         arrayPareja(ver)
 
         Thread.sleep(1000.toLong())
+
         for (i in 1..9){
             println()
         }
