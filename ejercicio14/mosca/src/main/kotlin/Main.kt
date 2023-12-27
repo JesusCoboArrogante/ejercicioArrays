@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
         do {
 
             val posicion: Int
-            println("[ ][ ][ ][ ][ ]")
+            println("[0][1][2][3][4]")
             println("------------")
             println("donde esta la mosca")
             posicion = readln().toIntOrNull()?:0

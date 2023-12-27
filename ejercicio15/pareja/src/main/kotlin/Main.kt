@@ -22,6 +22,7 @@ fun main(args: Array<String>) {
 
 
     }while (fin(parejas, ver))
+8
 
 
 
