@@ -39,8 +39,8 @@ adyacentes en cuyo caso la mosca revolotea y se sitúa en otra casilla o que la 
 
 ~~15. Realizaremos el juego de las parejas. Se inicia un vector de n casillas (siendo n un número par) y se colocan al azar parejas de números. Ese panel se oculta al jugador al que se le mostrará un panel vacío del que irá destapando de 2 en 2. Si los números destapados coinciden se quedan visibles si no se muestran un segundo y luego se ocultan. El jugador tratará de recordar qué números eran para encontrar a su pareja.~~
 
-16. Simularemos el lanzamiento de una piedra a un río. Se pedirá al usuario donde quiere lanzar la piedra (posición del vector) y la intensidad de la piedra (un número entero menor o igual que la dimensión máxima del vector). Cuando se lance, se almacena en esa casilla la pedrá y en las adyacentes se irán simulando las ondas con números que se van decrementando.
-Ejemplo, si damos una pedrá del 4 en la posición 6: {0,0,1,2,3,4,3,2,1,0,0,0} Después, cada segundo, se irá calmando el río restándole uno a las posiciones con número. La simulación se parará cuando el río vuelva a estar en calma; todo a cero.
+~~16. Simularemos el lanzamiento de una piedra a un río. Se pedirá al usuario donde quiere lanzar la piedra (posición del vector) y la intensidad de la piedra (un número entero menor o igual que la dimensión máxima del vector). Cuando se lance, se almacena en esa casilla la pedrá y en las adyacentes se irán simulando las ondas con números que se van decrementando.
+Ejemplo, si damos una pedrá del 4 en la posición 6: {0,0,1,2,3,4,3,2,1,0,0,0} Después, cada segundo, se irá calmando el río restándole uno a las posiciones con número. La simulación se parará cuando el río vuelva a estar en calma; todo a cero.~~
 
 17. Realiza el juego de los barquitos pero con un vector. Sólo se pondrán submarinos (barcos de una casilla). El juego consiste en lo siguiente:
 - Los paneles serán de 20 posiciones.

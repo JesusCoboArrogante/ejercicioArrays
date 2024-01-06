@@ -1,5 +1,6 @@
 fun main(args: Array<String>) {
 
+<<<<<<< HEAD
     val oceanoA = IntArray(5)
 
     val oceanoB = IntArray(10)
@@ -73,6 +74,44 @@ fun jugador(oceanoA: IntArray){
             }
 
         }while (contador<4)
+=======
+    var oceanoA = IntArray(10)
+    var oceanoB = IntArray(10)
+    var contador = 0
+
+
+    do {
+        println("que empiece el juego")
+        var numero = (0..9).random()
+        jugador(numero, oceanoA, contador)
+        contador = jugador(numero, oceanoA, contador)
+
+    }while (contador<4)
+
+
+
+}
+
+fun jugador(numero: Int , oceanoA: IntArray, contador: Int): Int{
+
+
+
+        if (oceanoA[numero] == 0 ){
+            oceanoA[numero] = 4
+            contador+1
+
+            return contador
+
+        }
+
+
+
+
+    return contador
+
+
+
+>>>>>>> 08016609535a0ce6e54c52019a8b8d9543ab4939
 
 
 
@@ -81,6 +120,7 @@ fun jugador(oceanoA: IntArray){
 
 
 fun escainet (oceanoB: IntArray){
+<<<<<<< HEAD
     var segundoContador = 0
     do {
         var aleatorio = (0..9).random()
@@ -94,4 +134,16 @@ fun escainet (oceanoB: IntArray){
 
 
 
+=======
+
+    for (i in oceanoB.indices){
+        var aleatorio = (0..19).random()
+        if (oceanoB[i] != 8){
+            oceanoB[aleatorio] = 8
+        }else{
+
+        }
+
+    }
+>>>>>>> 08016609535a0ce6e54c52019a8b8d9543ab4939
 }
